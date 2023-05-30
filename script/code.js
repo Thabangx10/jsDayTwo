@@ -60,3 +60,17 @@ if (x % 2 == 0) {
     console.log(x.slice(x-1,x+1));
 }
 
+
+let firstname = 'Thabang';
+let lastname = 'Kganana';
+
+console.log(firstname, lastname);
+
+console.log(firstname + " " + lastname);
+
+let numbVar = 5;
+console.log(numbVar);
+//  The output * by 5, will output 25
+
+const myname = 'Thabang'
+//const myname = 'Kganana' -> it gives an error 'redeclaring of a blocked scoped variable'
